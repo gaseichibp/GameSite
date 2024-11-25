@@ -1,0 +1,95 @@
+<!DOCTYPE site>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Hollow Knight: Silk Song</title>
+    <link rel="icon" href="css/img/hornetIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <script src="scripts.js"></script>
+    <script src="scripts2.js"></script>
+</head>
+<video class="video" src="css/img/bgvideo.webm" muted loop autoplay></video>
+<body>
+    <div class="responsive-container">
+        <header class = "header">
+            <nav class="menu">
+                <ul id = "link">
+                    <li>
+                        <a><button onclick="openAbout()">About Game</button></a>
+                    </li>
+                    <li>
+                        <a><button onclick="openGameplay()">Demonstration</button></a>
+                    </li>
+                    <li>
+                        <a><button onclick="openContacts()">About Us</button></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+            <br>
+            <div id = "align">
+                <section>
+                    <img class="logo" src="css/img/hklogo.png">
+                </section>
+            </div>
+            <br>
+            <div id = "bodya1">
+                <section id = "corText" class="box">
+                    <p>Discover the incredible world of<strong>Silk Song</strong>, where exciting adventures and challenges await you!</p>
+                </section>
+            </div>
+                <br>
+                <div  id = "bodya1">
+                    <section class="boxtitle">
+                        <h2 id ="titles" class="box">Features</h2>
+                    </section>
+                </div>
+                <br>
+                <div id = "bodya1">
+                    <section id = "corText" class = "box">    
+                        <li >Epic Adventure</li>
+                        <br>
+                        <li >Impressive graphics</li>
+                        <br>
+                        <li >MetroidVania</li>
+                    </section>
+                </div>
+                <br>
+                <div id = "bodya1">
+                    <section>
+                        <h2 id = "titles" class="box">Galery</h2>
+                    </section>
+                </div>
+            <br>
+                <div id = "bodya1">
+                    <section class = "box2-1" id="carousel">
+                    <img src="css/img/screens-web-0000-5-1024x576.webp" class="slide ativo"> 
+                    <img src="css/img/screens-web-0004-1-1024x576.webp"  class="slide">
+                    <img src="css/img/Screens_web_0001_4-1024x576.webp" class="slide">
+                    <img src="css/img/Screens_web_0002_3-1024x576.webp" class="slide">
+                    <img src="css/img/Screens_web_0003_2-1024x576.webp" class="slide">
+                    <button class="prev" onclick="previous()">&#10094;</button>
+                    <button class="next" onclick="next()">&#10095;</button>
+                    </section>
+                </div>
+                <div id = "align" class="events">
+                    <button onclick="playAutoPlay()">Play AutoPlay</button>
+                    <button onclick="stopAutoPlay()">Stop AutoPlay</button>
+                </div>
+            <br>    
+            <div id  = "bodya1">
+                <footer id = "corText">
+                <p>&copy; 2023 Hollow Knight: Silk Song. All rights reserved.</p>
+                <br>
+                <div id = "bodya1">
+                    <br>
+                    <p class = "box"><a href="politics.html">Privacy Policy</a></p>
+                    <br>
+                </div>
+                </footer>
+            </div>
+    </div>
+</body>
+</html>

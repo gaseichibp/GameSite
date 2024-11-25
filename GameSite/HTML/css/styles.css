@@ -1,0 +1,209 @@
+*{/* Control of the spacing of the elements; every time the page resets, the values reset, avoiding errors */
+    margin: 0;
+    padding: 0;
+}
+
+#titles{
+    color: #f15656;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#corText {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url('img/siteBg3.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgback{
+    background-image:url('img/bgSite2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#body1{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+}
+
+#bodya{
+    justify-content: center;
+    align-items: center;
+}
+
+#bodya1{
+    display: flex;
+    justify-content: center;  
+    
+}
+
+#bodya2{
+    display:flex;
+
+}
+
+#align{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#align2 {
+    justify-content:right;
+    align-items:normal;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #821f1f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #d42525;
+}
+
+.box{
+    max-width: 640px;
+    width: 100%;                
+    padding: 20px;           
+    background-color: #000000; 
+    border: 4px solid #f15656;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.616); 
+    border-radius: 50px;     
+    text-align: center;      
+}
+
+.box5 {
+    width: 100%;             
+    max-width: 400px;      
+    padding: 0px;      
+    background-color: #000000; 
+    border: 4px solid #00ffe1;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;     
+    text-align: center;
+    align-items: center;
+}
+
+.box2 {
+    width: 100%;             
+    max-width: 1586px;      
+    padding: 20px;           
+    background-color: #000000; 
+    border: 4px solid #f15656;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;    
+    display: flex;
+    justify-content: center; 
+    align-items: start;    
+}
+
+.box2-1 {
+    width: 100%;             
+    max-width: 800px;      
+    padding: 0px;           
+    background-color: #000000; 
+    border: 4px solid #f15656;  
+    box-shadow: 0px px 0px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px;     
+}
+
+.box3 {
+    width: 1000%;             
+    max-width:800px;      
+    padding: 20px;           
+    background-color: #000000; 
+    border: 4px solid #f15656;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;     
+}
+
+.mybutton {
+    justify-content:center; 
+    align-items: center;  
+    text-align: center;  
+    width: 100%; 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: 4px solid #5a0707;
+    border-radius: 10px;
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+#border{
+    width: 200px;
+    height: 200px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 10px solid #f15656; 
+    border-radius: 500px; 
+}
+
+html, body{
+    align-self: center; 
+}
+
+.menu {
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display:flow-root;
+    color: #fd0000;
+    padding: 4px 10px;
+}
+
+.logo{
+    width: 500px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 60%;
+    filter:contrast(115%);
+}
+
+.header{
+    position: -webkit-sticky;/* Necessary for it to work in Safari */
+    position: sticky;
+    top: 0;
+}
+
